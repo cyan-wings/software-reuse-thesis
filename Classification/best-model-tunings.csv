@@ -1,0 +1,22 @@
+F1-Score,Precision,Recall,Accuracy,Model,Num_Features,Preprocessing,Fea_Selection,Dim_Reduction,Var_Threshold,support,resampling
+0.782125,0.7827500000000001,0.784625,0.8007500000000001,"RandomForestClassifier(n_estimators=500, n_jobs=-1, random_state=27033074)",160,MaxAbsScaler(),kb,0,True,60,True
+0.76345,0.77945,0.751675,0.7878999999999999,"MLPClassifier(max_iter=10000, random_state=27033074)",160,PowerTransformer(),rf,0,True,60,False
+0.7864000000000001,0.7660750000000001,0.81005,0.799275,"SVC(gamma='auto', random_state=27033074)",160,QuantileTransformer(random_state=27033074),kb,0,True,60,True
+0.7801250000000001,0.7794,0.7838499999999999,0.7981,"KNeighborsClassifier(n_jobs=-1, n_neighbors=10)",320,QuantileTransformer(random_state=27033074),rf,0,False,60,False
+0.7659499999999999,0.72195,0.8275749999999998,0.76905,"SGDClassifier(loss='log', n_jobs=-1, random_state=27033074)",40,normalize,,1,False,60,False
+0.7186,0.71775,0.72255,0.7426250000000001,DecisionTreeClassifier(random_state=27033074),30,"QuantileTransformer(output_distribution='normal', random_state=27033074)",rf,0,False,60,True
+0.7916749999999999,0.7794000000000001,0.8070499999999999,0.8060749999999999,RidgeClassifierCV(),20,QuantileTransformer(random_state=27033074),,1,True,60,True
+0.7748250000000001,0.7308250000000001,0.8316250000000001,0.779125,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=27033074, ...)",370,normalize,rf,0,False,60,True
+0.775375,0.71365,0.851275,0.7742000000000001,GaussianProcessClassifier(random_state=27033074),270,normalize,kb,0,False,60,False
+0.7635500000000001,0.7542500000000001,0.775775,0.7813749999999999,AdaBoostClassifier(random_state=27033074),210,QuantileTransformer(random_state=27033074),rf,0,True,60,True
+0.77305,0.7814500000000001,0.76795,0.7945249999999999,"GradientBoostingClassifier(n_estimators=500, random_state=27033074)",401,"QuantileTransformer(output_distribution='normal', random_state=27033074)",,0,True,60,False

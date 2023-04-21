@@ -1,0 +1,22 @@
+R-square,MAE,RSME,MedAE,Model,Num_Features,Preprocessing,Fea_Selection,Dim_Reduction,Var_Threshold
+-0.37312500000000004,336.8278,845.5951250000002,112.378675,"RandomForestRegressor(n_estimators=500, n_jobs=-1, random_state=27033074)",20,"QuantileTransformer(output_distribution='normal', random_state=27033074)",rf,0,True
+-0.232225,350.12377499999997,789.3946,177.29485,"MLPRegressor(max_iter=10000, random_state=27033074)",50,QuantileTransformer(random_state=27033074),kb,0,True
+-0.0683,207.42325,770.2095,20.255775,SVR(gamma='auto'),10,PowerTransformer(),kb,0,True
+-0.002974999999999996,256.685225,740.6344999999999,92.39375,"KNeighborsRegressor(n_jobs=-1, n_neighbors=10)",30,QuantileTransformer(random_state=27033074),rf,0,True
+-0.36747499999999994,228.12205,810.740775,22.525,LogisticRegression(random_state=27033074),100,QuantileTransformer(random_state=27033074),,1,False
+-1.4390250000000002,350.04217499999993,1048.84555,50.1375,DecisionTreeRegressor(random_state=27033074),50,"QuantileTransformer(output_distribution='normal', random_state=27033074)",rf,0,False
+-0.015649999999999997,317.7384,743.4058,199.97044999999997,RidgeCV(),50,QuantileTransformer(random_state=27033074),kb,0,True
+-0.6234,322.8364,889.3173999999999,97.066175,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=None, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=27033074, ...)",250,MaxAbsScaler(),rf,0,False
+-0.030100000000000005,216.492175,755.2526,38.688075,GaussianProcessRegressor(random_state=27033074),150,QuantileTransformer(random_state=27033074),rf,0,True
+0.012375,334.124375,737.9232249999999,210.643325,AdaBoostRegressor(random_state=27033074),387,MaxAbsScaler(),,0,False
+-0.511675,358.18199999999996,866.4638500000001,125.50264999999999,"GradientBoostingRegressor(n_estimators=500, random_state=27033074)",270,PowerTransformer(),rf,0,True
