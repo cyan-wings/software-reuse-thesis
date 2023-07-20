@@ -1,0 +1,12 @@
+R-square,MAE,RSME,MedAE,Model,Num_Features,Preprocessing,Var_Threshold
+0.3182,74.5098,119.6488,41.7759,RF,388,QuantileTransformer_Normal,TRUE
+-0.0069,95.1703,143.845,61.093,MLP,388,QuantileTransformer_Uniform,TRUE
+-0.1138,72.4434,152.9372,12.6711,SVM,388,PowerTransformer,TRUE
+0.3019,76.6987,120.7864,46.9338,KNN,388,QuantileTransformer_Uniform,TRUE
+0.055,69.1977,140.1599,13.4875,LGR,388,QuantileTransformer_Uniform,FALSE
+-0.2322,88.9262,159.2238,27.45,DT,388,QuantileTransformer_Normal,FALSE
+0.2749,83.8725,123.2318,59.5722,R,388,QuantileTransformer_Uniform,TRUE
+0.2917,71.8842,121.3585,34.7743,XGB,388,Max-absoluteScaler,FALSE
+-0.2145,78.9002,159.8026,15.7008,GPC,388,QuantileTransformer_Uniform,TRUE
+0.2715,93.6215,123.4614,71.5177,ADA,388,Max-absoluteScaler,FALSE
+0.3117,73.6825,120.1148,38.6641,GB,388,PowerTransformer,TRUE

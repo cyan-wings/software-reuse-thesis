@@ -1,0 +1,12 @@
+F1-Score,Precision,Recall,Accuracy,Model,Num_Features,Preprocessing,Var_Threshold,resampling
+0.7785,0.7833,0.7771,0.7985,RF,495,StandardScaler,True,True
+0.7618,0.7597,0.7671,0.7815,MLP,495,PowerTransformer,False,False
+0.7832,0.7646,0.805,0.7966,SVM,495,QuantileTransformer_Uniform,True,True
+0.7797,0.7573,0.8063,0.7918,KNN,495,QuantileTransformer_Uniform,False,False
+0.7474,0.6665,0.8625,0.7321,LGR,495,Normalisation,False,False
+0.7119,0.7076,0.7205,0.735,DT,495,Min-maxScaler,True,True
+0.7806,0.7809,0.7829,0.7993,R,495,QuantileTransformer_Uniform,False,False
+0.7744,0.7828,0.7696,0.7959,XG,495,Max-absoluteScaler,False,False
+0.7795,0.7291,0.8404,0.7828,GPC,495,Normalisation,False,False
+0.7559,0.7463,0.7683,0.7737,ADA,495,QuantileTransformer_Normal,True,True
+0.774,0.7815,0.7692,0.7953,GB,495,,True,False
