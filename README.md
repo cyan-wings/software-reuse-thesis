@@ -1,4 +1,4 @@
-#Software Reuse Thesis
+# Software Reuse Thesis
 
 Description:
 This project demonstrates the pipeline that processes software reuse data to create models to predict software reuse.
